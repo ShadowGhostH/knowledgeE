@@ -1,0 +1,49 @@
+* Description
+F1  有毛发
+F2  有奶
+F3  有羽毛
+F4  会飞
+F5  下蛋
+F6  吃肉
+F7  犀利牙齿
+F8  有爪
+F9  眼睛前视
+F10 有蹄
+F11 反刍动物
+F12 黄褐色
+F13 暗斑
+F14 黑条纹
+F15 长脖子
+F16 长腿
+F17 不会飞
+F18 黑白色
+F19 会游泳
+F20 善飞
+M1  哺乳动物
+M2  食肉动物
+M3  有蹄类
+M4  鸟
+H1  豹
+H2  虎
+H3  长颈鹿
+H4  斑马
+H5  鸵鸟
+H6  企鹅
+H7  信天翁
+
+* Rules
+IF F1 THEN M1
+IF F2 THEN M1
+IF F3 THEN M4
+IF F4 F5 THEN M4
+IF F6 THEN M2
+IF F7 F8 F9 THEN M2
+IF M1 F10 THEN M3
+IF M1 F11 THEN M3
+IF M1 M2 F12 F13 THEN H1
+IF M1 M2 F12 F14 THEN H2
+IF M3 F15 F16 F13 THEN H3
+IF M3 F14 THEN H4
+IF M4 F17 F15 F16 F18 THEN H5
+IF M4 F17 F19 F18 THEN H6
+IF M4 F20 THEN H7
