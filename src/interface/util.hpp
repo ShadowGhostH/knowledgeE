@@ -52,6 +52,7 @@ extern const Int inf;
 extern const string &COMMENT_WORD;
 extern const string &FACT_WORD;
 extern const string &MEAN_WORD;
+extern const string &EVIDENCE_WORD;
 extern const string &RESULT_WORD;
 extern const string &CONDITION_IF;
 extern const string &CONDITION_THEN;
@@ -78,7 +79,7 @@ extern const Float DEFAULT_TIME_LIMIT;
 extern const Ull MEM_GB;
 extern const Int DEFAULT_MEMORY_LIMIT;
 
-enum class CONDITION_TYPE {FACT, MEAN, RESULT};
+enum class CONDITION_TYPE {FACT, MEAN, EVIDENCE, RESULT};
 enum class CONDITION_STATE {TRUE, FALSE, UNKNOWN};
 
 namespace util {

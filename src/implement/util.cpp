@@ -5,6 +5,7 @@ const Int inf = 0x3f3f3f3f;
 const string &COMMENT_WORD = "*";
 const string &FACT_WORD = "F";
 const string &MEAN_WORD = "M";
+const string &EVIDENCE_WORD = "E";
 const string &RESULT_WORD = "H";
 const string &CONDITION_IF = "IF";
 const string &CONDITION_THEN = "THEN";
